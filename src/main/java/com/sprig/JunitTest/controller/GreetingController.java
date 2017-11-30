@@ -39,7 +39,7 @@ public class GreetingController {
      * @return A ResponseEntity containing a Collection of Greeting objects.
      */
     @RequestMapping(
-            value = "/",
+            value = "/api/greetings",
             method = RequestMethod.GET,
             produces = MediaType.APPLICATION_JSON_VALUE)
     @SuppressWarnings("Convert2Diamond")
